@@ -1,5 +1,4 @@
 html, body {
-  background-color: #606060;
   font-size: 18px;
 }
 
@@ -8,7 +7,7 @@ html, body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  overflow-y: overlay;
+  overflow: hidden;
 }
 
 p, a, div {
@@ -22,6 +21,7 @@ a {
 
 section {
   width: 100vw;
+  height: 100vh;
 }
 
 #navbar {
@@ -29,7 +29,6 @@ section {
   justify-content: space-between;
   height: 15vh;
   width: 100vw;
-  background-color: #606060;
   border-bottom: 3px solid black;
   position: absolute;
   top: 0;
@@ -46,7 +45,7 @@ section {
   align-items: center;
 }
 
-#navbar-holder a {
+#btn-holder a {
   padding-left: 0.5rem;
 }
 
@@ -55,19 +54,19 @@ section {
 }
 
 @keyframes colorchange {
-  @0% {
+  0% {
     background-color: black;
   }
 
-  @25% {
+  25% {
     background-color: white;
   }
 
-  @50% {
+  50% {
     background-color: black;
   }
 
-  @75% {
+  75% {
     background-color: white;
   }
 }
