@@ -14,14 +14,14 @@ window.onscroll = function () {
 
 (function (canvas, ctx){
   //how much offset every second line should have
-  let offset = 50
+  let offset = 30
   //height difference between each line
-  let deltaY = 50;
+  let deltaY = 30;
   //distance between each word on x-axis
-  let deltaX = 100;
+  let deltaX = 60;
 
   let color = "#fff";
-  let font = "25px sans";
+  let font = "15px sans";
 
 
   canvas.width = canvas.clientWidth;
