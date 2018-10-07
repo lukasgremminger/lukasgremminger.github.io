@@ -31,9 +31,10 @@ section {
   border-bottom: 3px solid black;
   position: absolute;
   top: 0;
+  padding: 0 1rem;
 }
 
-#navbar>p {
+#navbar > p {
   align-self: center;
   font-size: 2rem;
 }
