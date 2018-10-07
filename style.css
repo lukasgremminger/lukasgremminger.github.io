@@ -28,10 +28,10 @@ section {
   justify-content: space-between;
   height: 5rem;
   width: 100%;
-  border-bottom: 2px solid black;
   position: fixed;
   padding: 0 1rem;
   transition: all .5s;
+  background-color: #05ffa1;
 }
 
 .scrollUp {
@@ -58,7 +58,15 @@ section {
 }
 
 #about {
-  animation: colorchange 10s infinite; What the fuck
+  animation: colorchange 10s infinite;
+}
+
+#home {
+  background-color: #01cdfe;
+}
+
+#social {
+  background-color: #fffb96;
 }
 
 @keyframes colorchange {
