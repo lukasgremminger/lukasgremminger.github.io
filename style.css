@@ -52,10 +52,13 @@ section {
 
 #btn-holder a {
   padding-left: 2rem;
+  text-transform: lowercase;
+  font-weight: bold;
+  font-size: .9rem;
 }
 
 #about {
-  /*animation: colorchange 10s infinite; What the fuck*/
+  animation: colorchange 10s infinite; What the fuck
 }
 
 @keyframes colorchange {
