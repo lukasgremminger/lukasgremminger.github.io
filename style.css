@@ -26,21 +26,22 @@ section {
 #navbar {
   display: flex;
   justify-content: space-between;
-  height: 15vh;
+  height: 5rem;
   width: 100%;
-  border-bottom: 3px solid black;
+  border-bottom: 2px solid black;
   position: fixed;
   padding: 0 1rem;
   transition: all .5s;
 }
 
 .scrollUp {
-  transform: translateY(-15vh);
+  transform: translateY(-5rem);
 }
 
 #navbar > p {
   align-self: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 #btn-holder {
@@ -50,7 +51,7 @@ section {
 }
 
 #btn-holder a {
-  padding-left: 0.5rem;
+  padding-left: 2rem;
 }
 
 #about {
